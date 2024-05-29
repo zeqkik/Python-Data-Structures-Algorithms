@@ -136,3 +136,15 @@ class LinkedList:
             return slow.next
         return slow
     
+    def has_loop(self):
+        slow = self.head
+        fast = self.head
+        step = 0
+        while(fast is not None):
+            fast = fast.next
+            step += 1
+            if (step % 2 == 0):
+                slow = slow.next
+            if(fast == slow):
+                return True
+        return False    
