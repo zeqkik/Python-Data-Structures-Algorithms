@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Stack_app",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/Stack/Stack_app.py",
+            "cwd": "${workspaceFolder}",
+            "envFile": "${workspaceFolder}/.env",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: LinkedList_app",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/LinkedLists/LL_app.py",
+            "cwd": "${workspaceFolder}",
+            "envFile": "${workspaceFolder}/.env",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: DoublyLinkedList_app",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/DoublyLinkedList/DoublyLinkedList_app.py",
+            "cwd": "${workspaceFolder}",
+            "envFile": "${workspaceFolder}/.env",
+            "console": "integratedTerminal"
+        }
+    ]
+}
